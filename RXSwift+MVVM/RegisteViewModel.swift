@@ -35,7 +35,6 @@ class RegisteViewModel {
     
     init() {
         let manager = ValidationManager.instance
-        print("manager的地址+++++++:\(manager)")
         nameUseable = name.asObservable().flatMapLatest{ name  in
             return manager.validateUsername(name).observeOn(MainScheduler.instance).catchErrorJustReturn(.failed(message:"username检测出错")).shareReplay(1)
         }

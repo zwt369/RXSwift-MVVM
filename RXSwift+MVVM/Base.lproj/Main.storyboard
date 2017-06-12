@@ -13,16 +13,16 @@
         <!--Navigation Controller-->
         <scene sceneID="YTX-6p-wrC">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mtb-Hu-SlP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="g6v-NM-9q0" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LFJ-h5-Gk1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="Dxp-Fg-du4" kind="relationship" relationship="rootViewController" id="KVK-1P-qGI"/>
+                        <segue destination="Dxp-Fg-du4" kind="relationship" relationship="rootViewController" id="J3Z-Tj-tyX"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Mtb-Hu-SlP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-193" y="-17"/>
         </scene>
@@ -81,7 +81,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="登录"/>
                                 <connections>
-                                    <segue destination="2it-5K-wem" kind="push" id="shT-as-lWy"/>
+                                    <segue destination="2it-5K-wem" kind="show" id="pPE-KG-l6n"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFi-v4-JMQ">
@@ -89,7 +89,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="注册"/>
                                 <connections>
-                                    <segue destination="6vK-Ba-Imw" kind="push" id="5KP-3J-89V"/>
+                                    <segue destination="6vK-Ba-Imw" kind="show" id="n4O-dr-d0D"/>
                                 </connections>
                             </button>
                         </subviews>
